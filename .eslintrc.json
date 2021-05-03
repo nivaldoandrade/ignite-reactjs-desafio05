@@ -34,7 +34,7 @@
     "camelcase": "off",
     "import/no-duplicates": "off",
     "react/jsx-props-no-spreading": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "jsx-a11y/anchor-is-valid": [
@@ -54,7 +54,7 @@
       }
     ],
     "react/jsx-one-expression-per-line": "off",
-    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/rules-of-hooks": "off",
     "react-hooks/exhaustive-deps": "warn",
     "react/require-default-props": "off",
     "react/jsx-filename-extension": [
@@ -80,7 +80,8 @@
         "allowExpressions": true
       }
     ],
-    "@typescript-eslint/camelcase": "off"
+    "@typescript-eslint/camelcase": "off",
+    "react/no-danger": "off"
   },
   "settings": {
     "react": {

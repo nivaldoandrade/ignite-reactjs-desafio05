@@ -4,4 +4,48 @@
   padding: 0;
 }
 
+:root {
+  --pink: #FF57B2;
+  --white: #F8F8F8;
+  --shark: #1A1D23;
+  --silver: #BBBBBB;
+  --alto: #D7D7D7;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; //15px
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; //14px
+  }
+}
+
+body {
+  background-color: var(--shark);
+  color: var(--alto);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, select, textarea, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: var(--white)
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 // TODO
